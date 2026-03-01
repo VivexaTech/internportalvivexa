@@ -77,11 +77,6 @@ const Home = () => {
                                     </div>
 
                                     <div className="info-item">
-                                        <div className="meta-label">Father's Name</div>
-                                        <div className="meta-value">{internData.fatherName}</div>
-                                    </div>
-
-                                    <div className="info-item">
                                         <div className="meta-label">Internship Period</div>
                                         <div className="meta-value">{internData.startDate} to {internData.endDate}</div>
                                     </div>
